@@ -1,0 +1,143 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: azure;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 70px;
+}
+.maintitle {
+  text-align: center;
+  font-size: 50px;
+  background: #2a7b9b;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 50%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  margin-top: 25px;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: 2px;
+}
+
+nav {
+  text-align: center;
+  background-color: aqua;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 0 0 30px cyan;
+}
+
+.navlist {
+  list-style: none;
+  display: inline;
+  padding: 20px;
+}
+
+.navlist a {
+  color: black;
+  text-decoration: none;
+  font-weight: 800;
+  transition: color 0.7s;
+  text-shadow: 0.3s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navlist a:hover {
+  color: maroon;
+  text-shadow: 0 0 10px burlywood;
+}
+
+#sectionpara {
+  padding-bottom: 10px;
+}
+
+#githublink {
+  text-decoration: none;
+  color: yellow;
+  border: 2px solid rgb(0, 255, 225);
+  border-radius: 5px;
+  padding: 1.5px;
+}
+section,
+footer {
+  border: 2px solid cyan;
+  border-radius: 15px;
+  padding: 15px 20px;
+  margin: 30px auto;
+  width: 80%;
+  background: rgba(255, 255, 255, o.03);
+}
+
+section:hover,
+footer:hover {
+  box-shadow: 0 0 40px cyan;
+  cursor: pointer;
+}
+
+h2 {
+  color: darkorchid;
+  text-shadow: 0 0 10px darkorchid;
+  font-size: 1.5rem;
+}
+ul,
+ol {
+  line-height: 1.2;
+  padding-left: 25px;
+}
+
+a {
+  color: #00b7ff;
+}
+
+a:hover {
+  color: burlywood;
+}
+
+footer img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #00e6e6;
+}
+
+footer h4 a:hover {
+  text-decoration: underline;
+}
+
+.info {
+  text-align: center;
+  padding: 15px 20px;
+  margin: 25px auto;
+  width: 80%;
+}
+.logo {
+  border-radius: ;
+}
+
+#nav a {
+  text-decoration: none;
+}
+
+section h4 {
+  text-align: justify;
+  color: chartreuse;
+}
+
+.herovideo {
+  width: 100%;
+}
+.maintitle:hover {
+  color: antiquewhite;
+}
